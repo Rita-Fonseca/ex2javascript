@@ -1,0 +1,19 @@
+body {
+  background: #639;
+}
+
+h1 {
+  color: #d8db24;
+  padding: 40px;
+  margin: 80px;
+}
+
+h2 {
+  color: green;
+  padding: 20px;
+}
+
+p {
+  background: #643296;
+  color: #d8db24;
+}

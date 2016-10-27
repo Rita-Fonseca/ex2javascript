@@ -1,0 +1,41 @@
+@import "variables";
+
+body{
+
+background: $fundo;
+
+}
+
+h1{
+  color: $color;
+  padding: $padding;
+  margin: $padding * 2;
+}
+
+h2{
+  @include cenas;
+}
+
+p{
+  background: darken($fundo, 0.9);
+  color: $color;
+}
+
+.container{
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: row;
+  justify-content:
+  align-items:
+}
+
+.flexbox-container{
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background: black;
+}
+
+.flexbox-block{
+
+}
